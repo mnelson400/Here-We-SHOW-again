@@ -1,5 +1,7 @@
 // Here We SHOW Again Katas
 
+// Team #3 - Nita, Adam, and Mark.
+
 const parentElement = document.querySelector ('.katas-list');
 
 
@@ -113,6 +115,7 @@ for (let counter = 0; counter < sampleArray.length; counter += 1) {
 
 
 // 12. Display all the even numbers contained in sampleArray. (244, 758, 450, …, 940, 472)
+
 for (let counter = 0; counter < sampleArray.length; counter += 1) {
     let currentElement = sampleArray [counter];
     if (currentElement % 2 === 0) {
